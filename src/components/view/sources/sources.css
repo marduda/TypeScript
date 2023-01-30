@@ -18,6 +18,7 @@
     color: #70d6ff;
     transition: 0.25s;
     cursor: pointer;
+    border-radius: 30px;
 }
 
 .source__item:hover,

@@ -1,8 +1,18 @@
+.news {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+    margin: 1rem auto;
+}
+
 .news__item {
     display: flex;
     flex-direction: column;
-    margin: 1rem auto;
-    margin-bottom: 1.6%;
     background: #fff;
     color: #333;
     line-height: 1.4;
